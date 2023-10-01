@@ -39,7 +39,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.13.16, @babel/core@npm:^7.22.1":
+"@babel/core@npm:^7.13.16, @babel/core@npm:^7.22.1, @babel/core@npm:^7.23.0":
   version: 7.23.0
   resolution: "@babel/core@npm:7.23.0"
   dependencies:
@@ -781,14 +781,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@firebase/app-types@npm:0.9.0":
+"@firebase/app-types@npm:0.9.0, @firebase/app-types@npm:^0.9.0":
   version: 0.9.0
   resolution: "@firebase/app-types@npm:0.9.0"
   checksum: e79bd3c4a8d6b911326fe83fddca8d8922ea5880fcb3ad72d3561b51e3d01f22669cdc6d61d2ec48ac9c5e763e3d44b7b6736cadf36a0827d7f62447bde4b12e
   languageName: node
   linkType: hard
 
-"@firebase/app@npm:0.9.19":
+"@firebase/app@npm:0.9.19, @firebase/app@npm:^0.9.19":
   version: 0.9.19
   resolution: "@firebase/app@npm:0.9.19"
   dependencies:
@@ -2224,8 +2224,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "budgeting.dp@workspace:."
   dependencies:
+    "@babel/core": ^7.23.0
     "@emotion/react": ^11.11.1
     "@emotion/styled": ^11.11.0
+    "@firebase/app": ^0.9.19
+    "@firebase/app-types": ^0.9.0
     "@fontsource/roboto": ^5.0.8
     "@mui/icons-material": ^5.14.11
     "@mui/material": ^5.14.11
