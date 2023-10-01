@@ -5,7 +5,7 @@
     "main": "src/index.ts",
     "repository": "https://github.com/insberr/budgeting.dp.git",
     "author": "insberr <jonahmatteson@gmail.com>",
-    "license": "AGPLv3.0",
+    "license": "AGPL-3.0",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -33,5 +33,11 @@
         "sass": "^1.68.0",
         "typescript": "^5.2.2",
         "vite": "^4.3.2"
+    },
+    "alias": {
+        "react": "preact/compat",
+        "react-dom/test-utils": "preact/test-utils",
+        "react-dom": "preact/compat",
+        "react/jsx-runtime": "preact/jsx-runtime"
     }
 }
