@@ -1,6 +1,6 @@
 {
     "name": "budgeting.dp",
-    "version": "3.6.3",
+    "version": "0.0.1",
     "description": "budgeting helper for digipen students",
     "main": "src/index.ts",
     "repository": "https://github.com/insberr/budgeting.dp.git",
