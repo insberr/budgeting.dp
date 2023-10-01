@@ -24,5 +24,4 @@ dist-ssr
 *.sw?
 
 .yarn/cache
-.yarn/releases
 .yarn/install-state.gz
