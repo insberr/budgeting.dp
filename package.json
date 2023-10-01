@@ -18,6 +18,8 @@
         "@fontsource/roboto": "^5.0.8",
         "@mui/icons-material": "^5.14.11",
         "@mui/material": "^5.14.11",
+        "@preact/compat": "^17.1.2",
+        "@preact/signals": "^1.2.1",
         "firebase": "^10.4.0",
         "preact": "^10.13.1",
         "preact-iso": "^2.3.1",
